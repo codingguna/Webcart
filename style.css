@@ -62,3 +62,35 @@ button:hover{
     background-color: green;
     color: black;
 }
+@media screen and (max-width:430px) {
+.product{
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+}
+#logo{
+    width:20px;
+    float: left;
+    height: 20px;
+    padding: 0px;
+}h3{
+    font-size: 0em;
+}ul{
+    display: inline-flex;
+}
+ul li{
+    margin-right: 10px;
+}
+a{
+    font-size: 15px;
+}
+#products{
+    display: grid;
+    grid-template-columns: auto auto;
+}img{
+    width: 100px;
+    height: 100px;
+}
+
+    
+}
